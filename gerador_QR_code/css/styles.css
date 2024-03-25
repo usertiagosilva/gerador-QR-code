@@ -88,11 +88,12 @@ body {
     display: flex;
     justify-content: center;
     border-radius: 5px;
-    transition: 0.5s;
+    transition: 0.01s;
 }
 
 .container.active #qr-code {
     opacity: 1;
+    transition: 0.5s;
 }
 
 #img-qrcode {

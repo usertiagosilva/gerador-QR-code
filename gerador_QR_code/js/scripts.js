@@ -39,7 +39,9 @@ qrCodeInput.addEventListener("keydown", (e) => {
 // Limpar área do QR Code
 qrCodeInput.addEventListener("keyup", () => {
     if(!qrCodeInput.value) {
-        container.classList.remove("active");
         qrCodeBtn.innerText = "Gerar QR Code";
+        container.classList.remove("active");
     }
 })
+
+
